@@ -89,7 +89,8 @@ body {
   left: 60px;
   top: 80px;
   display: none;
-  font-size: 16px;
+  font-size: 24px; /* Tamaño más grande para que se lea mejor */
+  font-family: 'Caveat', cursive; /* Fuente elegante tipo escritura a mano */
   color: var(--text-color);
   z-index: 3;
 }
@@ -118,10 +119,11 @@ body {
   position: absolute;
   left: 60px;
   top: 550px;
-  font-size: 28px;
+  font-size: 20px;
   opacity: 0;
   transition: opacity 0.5s;
   z-index: 3;
+  font-family: 'Quicksand', sans-serif; /* Fuente moderna y limpia para los números */
 }
 
 #clock-box.clock-box--visible {
@@ -141,5 +143,5 @@ body {
 }
 
 #clock .digit {
-  font-size: 64px;
+  font-size: 48px;
 }
