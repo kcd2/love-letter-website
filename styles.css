@@ -85,12 +85,12 @@ body {
 #letter {
   position: absolute;
   width: 430px;
-  height: 430px;
+  height: 460px;
   left: 55px;
-  top: 45px;
+  top: 35px;
   display: none;
-  font-size: 18px;
-  line-height: 1.3;
+  font-size: 15px;
+  line-height: 1.2;
   font-family: 'Caveat', cursive; /* Fuente elegante tipo escritura a mano */
   color: var(--text-color);
   z-index: 3;
@@ -119,8 +119,8 @@ body {
 #clock-box {
   position: absolute;
   left: 55px;
-  top: 515px;
-  font-size: 16px;
+  top: 550px;
+  font-size: 14px;
   opacity: 0;
   transition: opacity 0.5s;
   z-index: 3;
@@ -140,9 +140,9 @@ body {
 }
 
 #clock {
-  margin-left: 32px;
+  margin-left: 24px;
 }
 
 #clock .digit {
-  font-size: 38px;
+  font-size: 34px;
 }
